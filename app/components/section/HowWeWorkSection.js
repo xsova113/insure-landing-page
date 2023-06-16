@@ -5,7 +5,7 @@ const karla = Karla({ subsets: ["latin"] });
 
 const HowWeWorkSection = () => {
   return (
-    <section className="bg-[#2D2640] relative mx-8 md:mx-24 items-center max-md:text-center flex flex-col md:flex-row mt-32 py-16 px-10 md:px-24 md:py-20 justify-between gap-8 overflow-hidden">
+    <section className="bg-[#2D2640] mb-32 relative mx-8 md:mx-24 items-center max-md:text-center flex flex-col md:flex-row mt-32 py-16 px-10 md:px-24 md:py-20 justify-between gap-8 overflow-hidden">
       <h1 className="text-white text-4xl lg:text-5xl">
         Find out more
         <br /> about how we work

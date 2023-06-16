@@ -57,7 +57,7 @@ const Heading = () => {
                 {item}
               </span>
             ))}
-            <button className="border border-black text-md px-5 py-1 hover:bg-black hover:text-white cursor-pointer transition">
+            <button className="border border-black text-black text-md px-5 py-1 hover:bg-black hover:text-white cursor-pointer transition">
               VIEW PLANS
             </button>
           </div>

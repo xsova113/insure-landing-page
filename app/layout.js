@@ -13,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${dmSerif.className} bg-white text-[16px]`}>
+      <body className={`${dmSerif.className} min-h-screen bg-white text-[16px]`}>
         <Heading />
         {children}
         <Footer />

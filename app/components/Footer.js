@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <footer
       id="footer"
-      className="mt-32 flex flex-col relative md:px-24 md:py-16 py-24 bg-[#FAFAFA]"
+      className="flex flex-col relative md:px-24 md:py-16 py-24 bg-[#FAFAFA]"
     >
       <FooterImages />
       <div className="z-10 flex flex-col md:flex-row justify-between max-md:items-center">
