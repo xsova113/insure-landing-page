@@ -52,12 +52,12 @@ const Heading = () => {
             {navItems.map((item) => (
               <span
                 key={item}
-                className="text-[#2D2640]/80 hover:text-[#2B272F] cursor-pointer"
+                className={`text-[#837D87] tracking-wider text-sm font-bold hover:text-[#2B272F] cursor-pointer ${karla.className}`}
               >
                 {item}
               </span>
             ))}
-            <button className="border border-black px-5 py-1 hover:bg-black hover:text-white cursor-pointer transition">
+            <button className="border border-black text-md px-5 py-1 hover:bg-black hover:text-white cursor-pointer transition">
               VIEW PLANS
             </button>
           </div>

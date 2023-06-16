@@ -10,7 +10,7 @@ const HeroText = () => {
       <h1 className="text-5xl lg:text-6xl md:text-5xl leading-[50px]">
         Humanizing <br /> your insurance.
       </h1>
-      <p>
+      <p className={karla.className}>
         Get your life insurance coverage easier and faster. We blend our
         expertise and technology to help you find the plan that&apos;s right for
         you. Ensure you and your loved ones are protected.
